@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "521104388161",
+    "project_id": "amd-appdev",
+    "storage_bucket": "amd-appdev.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:521104388161:android:06d295ffd61f14d64216c0",
+        "android_client_info": {
+          "package_name": "com.example.mealmate"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDLYpNxsqJIKeIk5bXD6uH9QTcV0hVQCko"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

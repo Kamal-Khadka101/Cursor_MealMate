@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">MealMate</string>
+    <string name="app_logo">App Logo</string>
+    
+    <!-- Authentication -->
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="register">Register</string>
+    <string name="name">Name</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="confirm_password">Confirm Password</string>
+    
+    <!-- Navigation -->
+    <string name="home">Home</string>
+    <string name="recipes">Recipes</string>
+    <string name="shopping_list">Shopping List</string>
+    <string name="profile">Profile</string>
+    
+    <!-- Home Screen -->
+    <string name="this_week_meals">This Week\'s Meals</string>
+    <string name="shopping_lists">Shopping Lists</string>
+    <string name="add_new_recipe">Add New Recipe</string>
+    
+    <!-- Recipe Details -->
+    <string name="recipe_image">Recipe Image</string>
+    <string name="ingredients">Ingredients</string>
+    <string name="instructions">Instructions</string>
+    <string name="add_to_shopping_list">Add to Shopping List</string>
+    <string name="edit_recipe">Edit Recipe</string>
+    
+    <!-- Shopping List -->
+    <string name="empty_shopping_list">Empty Shopping List</string>
+    <string name="no_items_in_list">No items in your shopping list</string>
+    <string name="delegate_shopping">Delegate Shopping List</string>
+    <string name="mark_as_purchased">Mark as Purchased</string>
+    <string name="remove_item">Remove Item</string>
+    
+    <!-- Add/Edit Recipe -->
+    <string name="recipe_name">Recipe Name</string>
+    <string name="recipe_description">Description</string>
+    <string name="add_ingredient">Add Ingredient</string>
+    <string name="add_instruction">Add Instruction</string>
+    <string name="save_recipe">Save Recipe</string>
+    <string name="add_photo">Add Photo</string>
+    
+    <!-- Delegation -->
+    <string name="select_contact">Select Contact</string>
+    <string name="send_list">Send List</string>
+    <string name="list_sent">Shopping list sent successfully!</string>
+    
+    <!-- Error Messages -->
+    <string name="error_login">Login failed. Please try again.</string>
+    <string name="error_register">Registration failed. Please try again.</string>
+    <string name="error_empty_fields">Please fill in all fields</string>
+    <string name="error_passwords_not_match">Passwords do not match</string>
+    <string name="error_invalid_email">Invalid email address</string>
+    <string name="error_loading_recipes">Failed to load recipes</string>
+    <string name="error_saving_recipe">Failed to save recipe</string>
+    <string name="error_loading_shopping_list">Failed to load shopping list</string>
+    <string name="error_sending_list">Failed to send shopping list</string>
+    <string name="full_name">full_name</string>
+    <string name="back_to_login">back_to_login</string>
+    <string name="today_meals">today_meals</string>
+    <string name="favorite_recipes">Favorite Recipies</string>
+    <string name="add_shopping_item">Add Item</string>
+    <string name="meal_image">meal_image</string>
+    <string name="edit_meal">edit_meal</string>
+    <string name="edit_profile">Edit Profile</string>
+    <string name="delete_item">delete_item</string>
+    <string name="delete">Delete</string>
+    <string name="items_count">%d items</string>
+    <string name="share">Share</string>
+    <string name="edit">Edit</string>
+    <string name="create_account">Create Account</string>
+    <string name="already_have_account">Already have an account? Sign in</string>
+</resources>
