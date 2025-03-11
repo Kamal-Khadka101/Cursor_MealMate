@@ -86,13 +86,13 @@ public class LoginActivity extends AppCompatActivity {
             });
     }
 
-//    @Override
-//    protected void onStart() {
-//        super.onStart();
-//        // Check if user is signed in
-//        if (auth.getCurrentUser() != null) {
-//            startActivity(new Intent(this, MainActivity.class));
-//            finish();
-//        }
-//    }
+    @Override
+    protected void onStart() {
+        super.onStart();
+        // Check if user is signed in
+        if (auth.getCurrentUser() != null) {
+            startActivity(new Intent(this, MainActivity.class));
+            finish();
+        }
+    }
 } 

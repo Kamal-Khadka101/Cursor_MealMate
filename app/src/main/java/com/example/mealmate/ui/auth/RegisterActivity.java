@@ -3,6 +3,8 @@ package com.example.mealmate.ui.auth;
 import android.content.Intent;
 import android.os.Bundle;
 import android.text.TextUtils;
+import android.view.View;
+import android.widget.TextView;
 import android.widget.Toast;
 import androidx.appcompat.app.AppCompatActivity;
 import com.google.android.material.button.MaterialButton;
@@ -18,6 +20,8 @@ public class RegisterActivity extends AppCompatActivity {
     private TextInputEditText nameInput;
     private TextInputEditText emailInput;
     private TextInputEditText passwordInput;
+
+    TextView textview;
     private TextInputEditText confirmPasswordInput;
     private MaterialButton registerButton;
     private FirebaseAuth auth;
@@ -39,9 +43,19 @@ public class RegisterActivity extends AppCompatActivity {
         passwordInput = findViewById(R.id.password_input);
         confirmPasswordInput = findViewById(R.id.confirm_password_input);
         registerButton = findViewById(R.id.register_button);
+        textview = findViewById(R.id.login_button);
 
         // Set up click listener
         registerButton.setOnClickListener(v -> attemptRegister());
+
+        textview.setOnClickListener(new View.OnClickListener(){
+            public void onClick(View view){
+                Toast.makeText(RegisterActivity.this, "Going Back to Login", Toast.LENGTH_SHORT).show();
+                Intent intent = new Intent(getApplicationContext(), LoginActivity.class);
+                startActivity(intent);
+                finish();
+            }
+        });
     }
 
     private void attemptRegister() {
